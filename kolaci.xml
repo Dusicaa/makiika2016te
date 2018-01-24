@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<kolaci>
+       <kolac id="1">
+	       <vrsta>Mafini</vrsta>
+		   <podaci>Rođendanski, uskršnji, novogodišnji, za posebne prilike.</podaci>
+		    
+	   </kolac>
+	   
+	    <kolac id="2">
+		<vrsta>Keksi
+	</vrsta>
+	       <podaci>
+ Vrste:Cimet keks,Spekulos,Keks sa đumbirom.
+		   </podaci>
+	   </kolac>
+	   
+	    <kolac id="3">
+	          <vrsta>Sitni kolači</vrsta>
+	
+		 
+			  <podaci>
+Od sitnih kolača u ponudi imamo:bombice,minjone,štanglice, salamice,trouglove,rolatice,oblande.
+			  
+		   </podaci>
+	   </kolac>
+
+</kolaci>

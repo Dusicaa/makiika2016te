@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<slatkisi>
+  <slatkis>
+    <naziv>Torte</naziv>
+	<vrsta>Svecane</vrsta>
+	
+  </slatkis>
+  
+  <slatkis>
+    <naziv>Kolaci</naziv>
+	<vrsta>Sitni kolaci</vrsta>
+	
+ </slatkis>
+  <slatkis>
+    <naziv>Recepti</naziv>
+	<vrsta>Mafini</vrsta>
+	
+ </slatkis>
+</slatkisi>

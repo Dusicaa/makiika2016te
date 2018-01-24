@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+<channel>
+        <item>
+	         <title>MakiIka</title>
+	         <description>Torte i kolači</description>
+	         <link>http://sajtovistudenata.ict.edu.rs/22_13/index.html</link>
+	   </item>
+		<item>
+			<title>MakiIka</title>
+			<description>Najnovije vesti o kolačima</description>
+			<link>http://sajtovistudenata.ict.edu.rs/22_13/kolaci2.html</link>
+		</item>
+		<item>
+			<title>MakiIka</title>
+			<description>Najnovije vesti o tortama</description>
+			<link>http://sajtovistudenata.ict.edu.rs/22_13/torte2.html</link>
+		</item>
+</channel>
+
+</rss>

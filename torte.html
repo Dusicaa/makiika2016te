@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd5">
+<html>
+<head>
+	<title>Torte | MakiIka</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<meta name="description" content="izrada torti i kolača">
+	<meta name="keywords" content="torte,kolači,rođendanske,svadbene">
+	<link rel="shortcut icon" href="slike/shortcuticon.gif">
+	<link rel="stylesheet" type="text/css" href="stil.css" />
+    <script type="text/javascript" src="padajucaLista.js"></script>
+	 <script type="text/javascript" src="anketa.js"></script>
+	  <script type="text/javascript" src="komentar.js"></script>
+	   <script type="text/javascript" src="Search.js"></script>
+	   <script type="text/javascript" src="torte.js"></script>
+
+</head>
+<body onLoad="napraviXMLHttpRequest();">
+	<div id="omot">
+		<div id="header">
+		    <a href="index.html"> <img src="slike/MakiIka.png"\></a>		
+		</div>
+		<div class="cisti"></div>
+		<div class="nav">
+		      <ul id="menu" class="menu">
+					    <li class="nodiv"><a href="index.html">Početna</a></li>
+						<li><a href="#">Kolači</a>
+						<ul>
+						  <li><a href="mafini.html">Mafini</a></li>
+						  <li><a href="keksi.html">Keksi</a></li>
+						  <li><a href="sitniKolaci.html">Sitni kolači</a></li>
+						</ul>
+						</li>
+					    <li><a href="#">Torte</a>
+						  <ul>
+						  <li><a href="Svadbene.html">Svadbene</a></li>
+						  <li><a href="Svecane.html">Svečane</a></li>
+						  <li><a href="Decije.html">Dečije</a></li>
+						</ul>
+						</li>
+						<li class="nodiv"><a href="galerijaslika.html">Galerija slika</a></li>
+                       		
+					    <li class="nodiv"><a href="kontakt.html">Kontakt</a></li>
+					    
+			
+		   	</div>
+			<input type="button" onClick="nazad();" value="Nazad"/>
+			<input type="button" onClick="napred();" value="Napred"/>
+			<div id="torte">
+			</div>
+			
+			
+			<div class="cisti"></div>
+		<div id="futer">
+		    <ul>
+			<li><a href="index.html">Početna</a></li>
+			<li><a href="rss.xml">RSS</a></li>
+			<li><a href="sitemap.xml">SITEMAP</a></li><br/>
+			<li><a href="http://www.malemajstorije.com">Male majstorije</a></li>
+			<li><a href="http://www.gastronomija.info">Gastronomija</a></li>
+			<li><a href="http://www.kuvajsam.com">Kuvaj sam</a></li>
+			<li><a href="http://www.receptizakolace.rs">Recepti za kolače</a></li>
+			</ul>
+        </div> 
+	</div>
+	<script type="text/javascript">
+var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+</script>
+</body>
+</html>

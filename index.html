@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd5">
+<html>
+<head>
+	<title>Početna | MakiIka</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<meta name="description" content="izrada torti i kolača">
+	<meta name="keywords" content="torte,kolači,rođendanske,svadbene">
+	<link rel="shortcut icon" href="slike/shortcuticon.gif">
+	<link rel="stylesheet" type="text/css" href="stil.css" />
+    <script type="text/javascript" src="padajucaLista.js"></script>
+	 <script type="text/javascript" src="anketa.js"></script>
+	  <script type="text/javascript" src="komentar.js"></script>
+	   <script type="text/javascript" src="search.js"></script>
+	   
+</head>
+<body>
+	<div id="omot">
+		<div id="header">
+		    <a href="index.html"> <img src="slike/MakiIka.png"\></a>		
+		</div>
+		<div class="cisti"></div>
+		<div class="nav">
+		      <ul id="menu" class="menu">
+					    <li class="nodiv"><a href="index.html">Početna</a></li>
+						<li><a href="#">Kolači</a>
+						<ul>
+						  <li><a href="mafini.html">Mafini</a></li>
+						  <li><a href="keksi.html">Keksi</a></li>
+						  <li><a href="sitniKolaci.html">Sitni kolači</a></li>
+						</ul>
+						</li>
+					    <li><a href="#">Torte</a>
+						  <ul>
+						  <li><a href="svadbene.html">Svadbene</a></li>
+						  <li><a href="svecane.html">Svečane</a></li>
+						  <li><a href="decije.html">Dečije</a></li>
+						</ul>
+						</li>
+						<li class="nodiv"><a href="galerijaslika.html">Galerija slika</a></li>
+                        		
+					    <li class="nodiv"><a href="kontakt.html">Kontakt</a></li>
+					    
+			
+		   	</div>
+		<div id="omotSredina">
+				<div id="levaKolona">
+					      <a href="torte.html"><div id="torte1" class="fadeefekat" ><img src="slike/prvideo.jpg"/>
+						 </div></a>
+						  <div id="torte2">
+						  <br/>
+						  <p><h3>TORTE</h3><br/><i>Izrada svadbenih,svečanih i dečijih torti 
+						  po Vašoj želji.Pratimo svetske trendove
+						  u ukrašavanju ali i Vaše ideje su nam dobrodošle...</i>
+						  </p><br/>
+						 <a href="torte2.html"> <p>Najnovije vesti,cene,zanimljivosti...</p></a>
+						  </div>
+						  <a href="kolaci.html"><div id="kolaci1" class="fadeefekat"><img src="slike/drugideo.jpg"/></div></a>
+						  <div id="kolaci2">
+						  <br/>
+						  <p><h3>KOLAČI</h3><br/><i>Za sve prilike...<br/>mafini(rođendanski,novogodišnji,uskršnji),<br/>
+						  keksi(Cimet keks, spekulos,keks sa djumbirom),<br/>sitni kolači(rolati,kuglice,korpice,štanglice...)</i>
+						  </p><br/>
+						   <a href="kolaci2.html"> <p>Najnovije vesti,cene...</p></a>
+						  </div>
+						  <div class="cisti"></div>
+				</div>
+				<div id="desnaKolona">
+				<div id="pretraga">
+				
+				<div id="pretragaGore">
+					<a href="javascript:void(0)" OnClick="pretraga();">
+					<img src="slike/pretraga.png" width="50px" height="22px" style="float:right"/>
+					</a>
+					<input type="text" id="tbPretraga" /> 
+				</div>
+				<div id="rezultatPretraga">
+				</div>
+			</div>
+					
+					<div id="anketa">
+					   <form name="anketaForma" >
+					     <table>
+						    <tr>
+							    <th>
+								<h3><b>ANKETA</b></h3>
+								</th>
+							</tr>
+						    <tr>
+							    <th>
+					             <h4><b>Da li smo ispunili<br/>Vaša očekivanja?</b></h4>
+							     </th>
+					         </tr>
+							  <tr>
+                                <td>
+								   <label for="da">Da</label>
+                                <input type="radio"name="lbanketa" class="radio" value="0" /><br/>
+                                   <label for="ne">Ne</label>
+                                <input type="radio" name="lbanketa" class="radio" value="1" /><br/>
+								  <label for="možda">Možda</label>
+                                <input type="radio" name="lbanketa"  value="2" /><br/>
+								</td>
+                            </tr>
+							<tr>
+							    <td><input type="button" name="glasaj" id="btn" value="Glasaj" onClick="anketa(this);"/></td>
+							</tr>
+					      </table>
+						</form>
+					</div>
+					
+                     <div id="rezultatAnkete" >				
+					   
+					 </div>
+					<div id="ostaviteKomentar">
+					
+					         <form action="#"  name="forma1" id="forma1">
+	                                  <table>
+	                                            <tr>
+		                                            <th colspan="2">Ostavite komentar</th>
+		                                        </tr>
+		                                         <tr>   
+		                                            <td>
+		                                              <textarea id="taKomentar" class="text-box" cols="25" rows="3" ></textarea>
+		                                            </td>
+		                                          </tr>
+		                                          <tr>
+		                                            <td colspan="2" >
+			                                        <input type="button" value="Unesi komentar" id="btn" onClick="postavi();" />
+			                                        </td>
+		                                           </tr>
+	                                  </table>
+	                        </form>
+					</div>
+				</div>
+	    </div>
+		<div class="cisti"></div>
+		<div id="futer">
+		    <ul>
+			<li><a href="index.html">Početna</a></li>
+			<li><a href="rss.xml">RSS</a></li>
+			<li><a href="sitemap.xml">SITEMAP</a></li><br/>
+			<li><a href="http://www.malemajstorije.com">Male majstorije</a></li>
+			<li><a href="http://www.gastronomija.info">Gastronomija</a></li>
+			<li><a href="http://www.kuvajsam.com">Kuvaj sam</a></li>
+			<li><a href="http://www.receptizakolace.rs">Recepti za kolače</a></li>
+			</ul>
+        </div> 
+	</div>
+	<script type="text/javascript">
+var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<torte>
+       <torta id="1">
+	       <vrsta>Dečije</vrsta>
+		   <podaci>
+		     Torte pravimo i ukrašavamo prema slici koju VI izaberete,ili prema Vašim željama i idejama.
+		   </podaci>
+	   </torta>
+	   
+	    <torta id="2">
+	         <vrsta>Svadbene</vrsta>
+		   <podaci>
+		      Svadbene torte po vašoj želji.
+		   </podaci>
+	   </torta>
+	   
+	    <torta id="3">
+	          <vrsta>Svečane</vrsta>
+		   <podaci>
+		        Torte za sve prilike.
+		   </podaci>
+	   </torta>
+
+</torte>

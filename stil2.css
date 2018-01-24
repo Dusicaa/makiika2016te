@@ -1,0 +1,101 @@
+
+/*sitni kolaci*/
+#sitniKolaci{   
+              min-height:100px;
+               width:1024px;
+			   }
+ #sitniKolaci p{
+              margin:20px;
+			  }
+ #sitniKolaci img{
+               display:block;
+			   margin:20px auto;
+			   }
+			   
+/*mafini*/
+
+#mafini{ 
+         height:auto;
+        padding:10px;
+		}
+#mafini img{
+            display:block;
+            margin:auto;
+			 padding:10px;
+			 }
+
+/*keksi*/
+#keksi{
+         height:auto;
+        padding:10px;
+		}
+#keksi img{  
+            width:250px;
+             height:300px;
+            display:inline-block;
+            margin:auto;
+			 padding:20px;
+			 box-shadow:5px 0px 8px  #FFccFF;
+			 }
+
+
+
+/*svecane*/
+#svecane{   margin:auto;
+            overflow:hidden;      
+            width:800px;
+			height:400px;
+			}
+#svecane p{
+             margin:20px;
+			 }
+#slikeSvecane{ 
+              height:667px;
+             width:1400px;
+			 overflow:hidden;
+			 position:relative;
+			 }
+#slikeSvecane img{ 
+                 float:left;
+                width:200px;
+				height:200px;
+				}
+
+/*decije**/
+
+#decije{
+           height:auto;
+        padding:10px;
+}
+#decije img{
+             width:250px;
+             height:300px;
+            display:inline-block;
+            margin:auto;
+			 padding:20px;
+			 box-shadow:5px 0px 8px  #FFccFF;
+}
+
+
+/*svadbene*/	   
+
+#svadbene{  margin:auto;
+            overflow:hidden;      
+            width:1000px;
+			   
+}
+#slikeSvadbene{
+             height:667px;
+             width:2000px;
+			 overflow:hidden;
+			 position:relative;
+			 }
+#svadbene p{  
+                margin:20px;
+}
+#slikeSvadbene img{  
+                float:left;
+                width:500px;
+				height:667px;
+			  
+}

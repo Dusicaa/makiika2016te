@@ -1,0 +1,452 @@
+*{
+      margin:0px ;
+      padding:0px;
+ }
+body{ 
+     
+	  background-image:url(slike/pozadina.png);
+	  background-repeat:repeat;
+	  background-attachment:fixed;
+	  font-family:Sans Serif;
+	  color:#9900cc;
+	  font-size:15pt;
+	  }
+
+/*Pocetak zaglavlja*/
+
+#omot{
+      
+      width:1024px;
+	  margin:0 auto;
+	  border :1px solid #000; 
+	  border-color:#FF00FF;
+	  
+	  }
+#header{
+      width:1024px;
+	  height:160px;
+	 
+	   }
+
+
+
+.nav {height:36px; background:#aaa; color:#fff; text-shadow:1px 1px #888;text-align:center;padding-left:50px;margin:auto}
+.menu a {float:left;color:#9900cc; text-decoration:none; width:120px; height:28px; padding-top:8px;}
+.menu a:hover {color:#fff;}
+.menu {list-style:none; font:16px Arial,Verdana; width:1024px; margin:0 auto;}
+.menu li {position:relative; float:left; width:120px;}
+.menu ul {display:none; position:absolute; font:normal 13px Arial,Verdana; top:36px; left:0; background:#aaa; display:none; list-style:none;}
+.menu ul li {float:none; border-top:1px solid #ccc; width:120px;}
+.menu ul li a, li.menuhover li a, li.menuhover li.menuhover li a {float:none; display:block; background:none; height:22px; padding-top:5px;}
+.menu ul li a:hover, li.menuhover li a:hover, li.menuhover li.menuhover li a:hover {background:#999; color:#fff;}
+.menu ul ul {left:120px; top:0;}
+li.menuhover a, li.menuhover li.menuhover a {color:#fff; background:#999;}
+				   
+
+/*Kraj zaglavlja*/
+
+#omotSredina{
+           min-height:100px;
+           width:1024px;
+		  
+		   }
+
+/*Pocetak leve kolone*/
+
+#levaKolona{
+        width:720px;
+		float:left;
+		   }
+#torte{width:1024px;min-height:300px;}                /*!!!!!!!!!!!!!!!!!*/
+#torte1{
+        width:360px;
+		height:299px;
+		float:left;
+		border-bottom:1px solid #FF00FF;
+		}
+#torte1 img{
+        width:240px;
+		height:200px;
+		margin:46px; 
+		border-radius: 10px 50px 0px 30px;  
+		  }
+
+		
+.fadeefekat {
+            opacity: 2;
+            transition: opacity .15s ease-in-out;
+            }		
+.fadeefekat:hover {
+                  opacity: 0.6;
+                  }   
+#torte2{
+       text-align:center;
+       width:358px;
+	   height:299px;
+	   float:right;
+	   border-right:1px solid #FF00FF;
+	   border-bottom:1px solid #FF00FF;
+	   
+	   
+	   }
+
+#torte2 a:hover{
+                color:#fff;
+			   }
+
+			   
+#kolaci{width:1024px;min-height:300px;}                         /*!!!!!!!!!!!*/
+#kolaci1{
+         width:360px;
+		 height:300px;
+		 float:left;
+		 
+		 }
+#kolaci1 img{
+        width:240px;
+        height:200px;
+		margin:46px; 
+		border-radius: 10px 50px 0px 30px;   
+	
+		  }
+#kolaci2{
+       text-align:center;
+       width:358px;
+	   height:300px;
+	   float:right;
+	   border-right:1px solid #FF00FF;
+	  
+	   }
+
+#kolaci2 a:hover{ color:#fff;}
+
+/*Kraj leve kolone*/
+
+
+
+/*Pocetak desne kolone*/
+
+#desnaKolona{
+        
+        width:284px;
+		float:left;
+		padding-left:10px;
+		padding-right:10px;
+		display:inline;
+		  }
+#pretraga{
+          min-height:100px;
+           margin-top:10px;
+         }
+#pretragaGore{
+            min-height:20px;
+			}
+#rezultatPretraga{
+         min-height:30px;
+		 margin-top:35px;
+		 min-width:284px;
+		 }
+#tbPretraga{
+         width:115px; 
+		 height:20px;
+		 background:#F6F1E0; 
+		 border:1px solid #B69B64;
+		 color:#501600;
+		 float:right;
+		 margin-right:5px;
+		 margin-bottom:10px; 
+		 padding-left:3px;
+		 }
+
+#btn{
+        margin-left:55px;
+		padding-left:10px;
+		padding-right:10px;
+		border-radius: 10px 40px 0px 20px;
+		}
+#dugme{ 
+		padding-left:10px;
+		padding-right:10px;
+		border-radius: 10px 40px 0px 20px;
+        margin-left:22px;
+		}
+#anketa{ 
+        margin-top:30px;
+		
+		}
+
+#ostaviteKomentar{
+         margin-top:30px;
+		
+		 }
+ #taKomentar{margin:5px;}
+ #forma1{width:284px; margin:auto; }
+ 
+ #rezultatAnkete{
+		min-height:50px; width:284px;display:block;}
+
+.radio{
+        margin-left:31px;
+	   }
+
+
+.cisti{clear:both;}
+.komentar{margin:5px; padding:5px; border:1px solid #CCC;}
+
+
+/*Kraj desne kolone*/
+
+
+
+/*futer*/
+#futer{ 
+		width:1024px;
+        text-align:center;
+		border-top:1px solid #FF00FF;
+		padding-top:10px;
+		padding-bottom:10px;
+		 }
+#futer li a{
+        color:#993399;
+        text-decoration:none;
+		padding:10px;
+		margin:10px;
+		}
+#futer  li{
+        display:inline;
+		}
+	/*kraj futera*/
+	
+	
+
+/*O autoru*/
+#omotOautoru{
+        width:1024px;
+		height:300px;
+		    }
+#omotOautoru img{
+        float:right;
+		margin:20px;
+		border-radius:10px 40px 0px 20px;
+		       }
+#omotOautoru p{
+        text-align:center;
+		padding-top:40px;
+		      }
+#omotOautoru a img{
+        margin-right:170px;
+		border-radius:0px;
+		opacity:0.5;
+		         }
+/*kraj o autoru*/
+
+
+
+/*kontakt*/
+#omotKontakt{
+           height:auto;
+           width:1024px;}
+#LevoKontakt{
+          float:left;
+		  width:511px;
+		  height:auto;
+		  margin-bottom:20px;
+		  margin-top:20px;
+		  }
+#DesnoKontakt{
+          float:left;
+		  width:511px;
+		  height:auto;
+		  margin-bottom:20px;
+		  margin-top:20px;
+		  }
+#maps{
+       float:left;
+	   width:1024px;
+	   }
+#maps a{ 
+      color:#9900cc;
+	  
+	  }
+#all{
+      height:auto;
+	  padding:10px; 
+	  border-radius: 10px 50px 0px 30px;
+	border-color:#FF00FF;
+	}
+#all li{
+       list-style:none;
+	   }
+        
+
+.custom-form-submit{
+         margin-left:105px;
+		 padding-left:10px;
+		 padding-right:10px;
+		 border-radius: 10px 40px 0px 20px;
+		 margin-bottom:5px;
+		     }
+
+.required {
+        padding:5px;
+	}
+	
+ h4{
+        text-align:center;
+        margin-bottom:20px;
+   }
+   #txtName {
+         margin-left:85px;
+		 width:160px;
+		 height:20px;
+		 margin-bottom:5px;
+		 }
+   #txtEmail{
+          margin-left:150px;
+		  width:160px;
+		  height:20px;
+		  margin-bottom:5px;
+		  }
+   #txtPoruka{
+          margin-left:142px;
+		  width:160px;
+		  height:25px;
+		  }
+   
+   #ispis{
+           float:right;
+		   min-height:20px;
+		   width:400px;
+		   }
+  
+ 
+/*kraj kontakta*/
+
+
+
+
+/*galerija slika */
+#omotGalerija{
+               position: relative; 
+			   width: 800px;
+			   margin:20px auto;
+              height: 800px; 		
+			  overflow: hidden;
+			  }
+
+		
+
+ /*jssor slider thumbnail navigator skin 07 css
+               
+                .thumbs .p            (normal)
+                .thumbs .p:hover      (normal mouseover)
+                .thumbs .pav          (active)
+                .thumbs .pav:hover    (active mouseover)
+                .thumbs .pdn          (mousedown)*/
+              
+ .thumbs .i  
+                {
+                    position:absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 72px;
+                    height: 72px;
+                	filter: alpha(opacity=80);
+                	opacity: .8;
+                }
+ .thumbs.p:hover .i, .thumbs .pav .i
+                {
+                	filter: alpha(opacity=100);
+                	opacity: 1;
+                }
+.thumbs .o
+                {
+                    position: absolute;
+                    top:0px;
+                    left:0px;
+                    width:70px;
+                    height:70px;
+                    
+                    border: 1px solid #000;
+                    
+                    transition: border-color .6s;
+                    -moz-transition: border-color .6s;
+                    -webkit-transition: border-color .6s;
+                    -o-transition: border-color .6s;
+                }
+ .thumbs .o
+                { 
+                	width : 72px;
+                	height : 72px;
+                }
+ .thumbs .pav .o, .thumbs.p:hover .o
+                {
+                	border-color: #fff;
+                }
+ .thumbs .pav:hover .o
+                {
+                	border-color: #0099FF;
+                }
+  .thumbs.p:hover .o
+                {
+                	transition: none;
+                    -moz-transition: none;
+                    -webkit-transition: none;
+                   
+                }
+/*kraj galerija slika*/
+
+
+/*torte1 i kolaci1 link*/
+#omotTorteKolaci{
+           width:1024px;
+		   }
+#torteKolaciLevo{
+           float:left;
+		   width:590px;
+		   border-right:1px solid #FF00FF;
+		   }
+#torteKolaciDesno{
+            float:left;
+			width:431px;
+			text-align:center;
+			}
+
+
+/*torte2 i kolaci2 link*/
+.tk1{
+     float:left;
+	 display:inline;
+	 width:321px;
+	 height:250px;
+	 border-bottom:1px solid #FF00FF;
+	 line-height:35px;
+	 padding-left:20px;
+	}
+.tk2{
+      float:left;
+	  display:inline;
+	  width:680px;
+	 
+	  border-bottom:1px solid #FF00FF;
+	  height:250px;
+      }
+.tk2 img{
+        padding-left:300px;
+        padding-top:25px;}
+.tk3{
+      float:left;
+	  display:inline-block;
+	  width:1022px;
+	  height:auto;
+	  line-height:25px;
+	  text-align:center;
+	  padding-bottom:20px;
+	  }
+.tk3 h2{
+      padding-top:10px;
+	  }
+.tk4{
+      display:block;
+	  text-align:center;
+	  }
